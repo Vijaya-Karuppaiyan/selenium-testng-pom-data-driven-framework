@@ -65,11 +65,18 @@ Data-DrivenSeleniumAutomationFrameworkusingTestNGandPOM
 ## 📊 Excel Test Data Format
 **Sheet Name:** `LoginTestData`
 
-| TestCaseID | Email | Password | ExpectedResult |
-|-----------|-------|----------|----------------|
-| TC_01 | standard_user | secret_sauce | Success |
-| TC_02 | locked_out_user | secret_sauce | Fail |
-| TC_03 | problem_user | wrong_pwd | Fail |
+| TestCaseID | Username          | Password       | Expected |
+|------------|-----------------|----------------|----------|
+| TC_01      | standard_user    | secret_sauce   | Success  |
+| TC_02      | Wronguser        | Welcome@1      | Fail     |
+| TC_03      | locked_out_user  | Hello@123      | Fail     |
+| TC_04      |                  | secret_sauce   | Fail     |
+| TC_05      | locked_out_user  |                | Fail     |
+| TC_06      | visual_user      | secret_sauce   | Success  |
+| TC_07      | problem_user     | secret_sauce   | Success  |
+
+
+
 
 ---
 ## Key Features
