@@ -10,7 +10,7 @@ The framework is designed following **industry best practices** and is suitable 
 ---
 
 ## Tools & Technologies Used
-- **Java (JDK 11)**
+- **Java (JDK 21)**
 - **Selenium WebDriver 4**
 - **TestNG**
 - **Apache POI (Excel handling)**
