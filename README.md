@@ -1,7 +1,7 @@
 # Data-Driven Selenium Automation Framework using TestNG, POM, and Apache POI
 ## Scalable Data-Driven Selenium Automation Framework Using TestNG and POM
 
-## 📌 Project Overview
+##  Project Overview
 This project is a **Data-Driven Selenium Automation Framework** built using **Java, Selenium WebDriver, TestNG, and Page Object Model (POM)**.  
 It supports executing automated test cases using test data from **Excel files** with the help of **Apache POI**, ensuring reusability, scalability, and maintainability.
 
@@ -9,7 +9,7 @@ The framework is designed following **industry best practices** and is suitable 
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 - **Java (JDK 11)**
 - **Selenium WebDriver 4**
 - **TestNG**
@@ -21,7 +21,7 @@ The framework is designed following **industry best practices** and is suitable 
 
 ---
 
-## 🧱 Framework Design
+## Framework Design
 - **Page Object Model (POM)** for UI interaction
 - **Data-Driven Testing** using Excel files
 - **TestNG DataProvider** for parameterized test execution
@@ -30,7 +30,7 @@ The framework is designed following **industry best practices** and is suitable 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 Data-DrivenSeleniumAutomationFrameworkusingTestNGandPOM
 │
 ├── src/main/java
@@ -62,7 +62,7 @@ Data-DrivenSeleniumAutomationFrameworkusingTestNGandPOM
 
 ---
 
-## 📊 Excel Test Data Format
+##  Excel Test Data Format
 **Sheet Name:** `LoginTestData`
 
 | TestCaseID | Username          | Password       | Expected |
