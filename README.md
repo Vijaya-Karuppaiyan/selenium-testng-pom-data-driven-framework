@@ -31,3 +31,68 @@ The framework is designed following **industry best practices** and is suitable 
 ---
 
 ## 📂 Project Structure
+Data-DrivenSeleniumAutomationFrameworkusingTestNGandPOM
+│
+├── src/main/java
+│ ├── com.saucedemo.base
+│ │ └── BaseTest.java
+│ ├── com.saucedemo.factory
+│ │ └── DriverFactory.java
+│ ├── com.saucedemo.pages
+│ │ └── LoginPage.java
+│ └── com.saucedemo.utils
+│ ├── ConfigReader.java
+│ └── ExcelUtil.java
+│
+├── src/main/resources
+│ └── config.properties
+│
+├── src/test/java
+│ └── com.saucedemo.testcases
+│ └── LoginTest.java
+│
+├── src/test/resources
+│ └── testdata
+│ └── LoginData.xlsx
+│
+├── testng.xml
+├── pom.xml
+├── .gitignore
+└── README.md
+
+---
+
+## 📊 Excel Test Data Format
+**Sheet Name:** `LoginTestData`
+
+| TestCaseID | Email | Password | ExpectedResult |
+|-----------|-------|----------|----------------|
+| TC_01 | standard_user | secret_sauce | Success |
+| TC_02 | locked_out_user | secret_sauce | Fail |
+| TC_03 | problem_user | wrong_pwd | Fail |
+
+---
+## Key Features
+- **Data-driven execution using Excel**
+- **Page Object Model implementation**
+- **Reusable WebDriver setup**
+- **Easy maintenance and scalability**
+- **Supports negative and positive test scenarios**
+- **Git-friendly with .gitignore**
+## Challenges & Solutions
+- **Excel temporary file Git error → Solved using .gitignore**
+- **Sheet not found issue → Ensured exact sheet name matching**
+- **Code duplication → Solved using BaseTest and utility classes**
+- **Locator maintenance → Solved using POM design**
+## Future Enhancements
+- **Cross-browser testing support**
+- **Parallel execution using TestNG**
+- **Extent / Allure Reporting**
+- **Jenkins / CI-CD integration**
+- **Cucumber (BDD) integration**
+- **Database-driven testing**
+## Author
+- **Vijaya K**
+- **Senior IT Trainer | Automation Testing | Selenium | TestNG | Java**
+## License
+- **This project is created for learning, training, and demonstration purposes.**
